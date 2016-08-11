@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D28A52B61D5B178100D93646 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28A52B51D5B178100D93646 /* AppDelegate.swift */; };
+		D28A52B81D5B178100D93646 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28A52B71D5B178100D93646 /* ViewController.swift */; };
+		D28A52BB1D5B178100D93646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28A52B91D5B178100D93646 /* Main.storyboard */; };
+		D28A52BE1D5B178100D93646 /* Qualaroo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D28A52BC1D5B178100D93646 /* Qualaroo.xcdatamodeld */; };
+		D28A52C01D5B178100D93646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28A52BF1D5B178100D93646 /* Assets.xcassets */; };
+		D28A52C31D5B178100D93646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28A52C11D5B178100D93646 /* LaunchScreen.storyboard */; };
+		D28A52CE1D5B178100D93646 /* QualarooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28A52CD1D5B178100D93646 /* QualarooTests.swift */; };
+		D28A52D91D5B178100D93646 /* QualarooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28A52D81D5B178100D93646 /* QualarooUITests.swift */; };
+		D28A52E71D5B2AC000D93646 /* QualarooMobileSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A52E61D5B2AC000D93646 /* QualarooMobileSDK.framework */; };
+		D28A52E91D5B2EE200D93646 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A52E81D5B2EE200D93646 /* iAd.framework */; };
+		D28A52EB1D5B2EEE00D93646 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A52EA1D5B2EEE00D93646 /* AdSupport.framework */; };
+		D28A52EC1D5B330900D93646 /* QualarooMobileSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A52E61D5B2AC000D93646 /* QualarooMobileSDK.framework */; };
+		D28A52ED1D5B330900D93646 /* QualarooMobileSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D28A52E61D5B2AC000D93646 /* QualarooMobileSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D28A52CA1D5B178100D93646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D28A52AA1D5B178100D93646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D28A52B11D5B178100D93646;
+			remoteInfo = Qualaroo;
+		};
+		D28A52D51D5B178100D93646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D28A52AA1D5B178100D93646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D28A52B11D5B178100D93646;
+			remoteInfo = Qualaroo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D28A52EE1D5B330900D93646 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D28A52ED1D5B330900D93646 /* QualarooMobileSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D28A52B21D5B178100D93646 /* Qualaroo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qualaroo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28A52B51D5B178100D93646 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D28A52B71D5B178100D93646 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D28A52BA1D5B178100D93646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D28A52BD1D5B178100D93646 /* Qualaroo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Qualaroo.xcdatamodel; sourceTree = "<group>"; };
+		D28A52BF1D5B178100D93646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D28A52C21D5B178100D93646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D28A52C41D5B178100D93646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D28A52C91D5B178100D93646 /* QualarooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QualarooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28A52CD1D5B178100D93646 /* QualarooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualarooTests.swift; sourceTree = "<group>"; };
+		D28A52CF1D5B178100D93646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D28A52D41D5B178100D93646 /* QualarooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QualarooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28A52D81D5B178100D93646 /* QualarooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualarooUITests.swift; sourceTree = "<group>"; };
+		D28A52DA1D5B178100D93646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D28A52E61D5B2AC000D93646 /* QualarooMobileSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QualarooMobileSDK.framework; sourceTree = "<group>"; };
+		D28A52E81D5B2EE200D93646 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		D28A52EA1D5B2EEE00D93646 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D28A52AF1D5B178100D93646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28A52EB1D5B2EEE00D93646 /* AdSupport.framework in Frameworks */,
+				D28A52EC1D5B330900D93646 /* QualarooMobileSDK.framework in Frameworks */,
+				D28A52E91D5B2EE200D93646 /* iAd.framework in Frameworks */,
+				D28A52E71D5B2AC000D93646 /* QualarooMobileSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28A52C61D5B178100D93646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28A52D11D5B178100D93646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D28A52A91D5B178100D93646 = {
+			isa = PBXGroup;
+			children = (
+				D28A52EA1D5B2EEE00D93646 /* AdSupport.framework */,
+				D28A52E81D5B2EE200D93646 /* iAd.framework */,
+				D28A52B41D5B178100D93646 /* Qualaroo */,
+				D28A52CC1D5B178100D93646 /* QualarooTests */,
+				D28A52D71D5B178100D93646 /* QualarooUITests */,
+				D28A52B31D5B178100D93646 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D28A52B31D5B178100D93646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D28A52B21D5B178100D93646 /* Qualaroo.app */,
+				D28A52C91D5B178100D93646 /* QualarooTests.xctest */,
+				D28A52D41D5B178100D93646 /* QualarooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D28A52B41D5B178100D93646 /* Qualaroo */ = {
+			isa = PBXGroup;
+			children = (
+				D28A52E61D5B2AC000D93646 /* QualarooMobileSDK.framework */,
+				D28A52B51D5B178100D93646 /* AppDelegate.swift */,
+				D28A52B71D5B178100D93646 /* ViewController.swift */,
+				D28A52B91D5B178100D93646 /* Main.storyboard */,
+				D28A52BF1D5B178100D93646 /* Assets.xcassets */,
+				D28A52C11D5B178100D93646 /* LaunchScreen.storyboard */,
+				D28A52C41D5B178100D93646 /* Info.plist */,
+				D28A52BC1D5B178100D93646 /* Qualaroo.xcdatamodeld */,
+			);
+			path = Qualaroo;
+			sourceTree = "<group>";
+		};
+		D28A52CC1D5B178100D93646 /* QualarooTests */ = {
+			isa = PBXGroup;
+			children = (
+				D28A52CD1D5B178100D93646 /* QualarooTests.swift */,
+				D28A52CF1D5B178100D93646 /* Info.plist */,
+			);
+			path = QualarooTests;
+			sourceTree = "<group>";
+		};
+		D28A52D71D5B178100D93646 /* QualarooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D28A52D81D5B178100D93646 /* QualarooUITests.swift */,
+				D28A52DA1D5B178100D93646 /* Info.plist */,
+			);
+			path = QualarooUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D28A52B11D5B178100D93646 /* Qualaroo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28A52DD1D5B178100D93646 /* Build configuration list for PBXNativeTarget "Qualaroo" */;
+			buildPhases = (
+				D28A52AE1D5B178100D93646 /* Sources */,
+				D28A52AF1D5B178100D93646 /* Frameworks */,
+				D28A52B01D5B178100D93646 /* Resources */,
+				D28A52EE1D5B330900D93646 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qualaroo;
+			productName = Qualaroo;
+			productReference = D28A52B21D5B178100D93646 /* Qualaroo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D28A52C81D5B178100D93646 /* QualarooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28A52E01D5B178100D93646 /* Build configuration list for PBXNativeTarget "QualarooTests" */;
+			buildPhases = (
+				D28A52C51D5B178100D93646 /* Sources */,
+				D28A52C61D5B178100D93646 /* Frameworks */,
+				D28A52C71D5B178100D93646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D28A52CB1D5B178100D93646 /* PBXTargetDependency */,
+			);
+			name = QualarooTests;
+			productName = QualarooTests;
+			productReference = D28A52C91D5B178100D93646 /* QualarooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D28A52D31D5B178100D93646 /* QualarooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28A52E31D5B178100D93646 /* Build configuration list for PBXNativeTarget "QualarooUITests" */;
+			buildPhases = (
+				D28A52D01D5B178100D93646 /* Sources */,
+				D28A52D11D5B178100D93646 /* Frameworks */,
+				D28A52D21D5B178100D93646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D28A52D61D5B178100D93646 /* PBXTargetDependency */,
+			);
+			name = QualarooUITests;
+			productName = QualarooUITests;
+			productReference = D28A52D41D5B178100D93646 /* QualarooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D28A52AA1D5B178100D93646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mohamed Digwey";
+				TargetAttributes = {
+					D28A52B11D5B178100D93646 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D28A52C81D5B178100D93646 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D28A52B11D5B178100D93646;
+					};
+					D28A52D31D5B178100D93646 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D28A52B11D5B178100D93646;
+					};
+				};
+			};
+			buildConfigurationList = D28A52AD1D5B178100D93646 /* Build configuration list for PBXProject "Qualaroo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D28A52A91D5B178100D93646;
+			productRefGroup = D28A52B31D5B178100D93646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D28A52B11D5B178100D93646 /* Qualaroo */,
+				D28A52C81D5B178100D93646 /* QualarooTests */,
+				D28A52D31D5B178100D93646 /* QualarooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D28A52B01D5B178100D93646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28A52C31D5B178100D93646 /* LaunchScreen.storyboard in Resources */,
+				D28A52C01D5B178100D93646 /* Assets.xcassets in Resources */,
+				D28A52BB1D5B178100D93646 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28A52C71D5B178100D93646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28A52D21D5B178100D93646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D28A52AE1D5B178100D93646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28A52BE1D5B178100D93646 /* Qualaroo.xcdatamodeld in Sources */,
+				D28A52B81D5B178100D93646 /* ViewController.swift in Sources */,
+				D28A52B61D5B178100D93646 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28A52C51D5B178100D93646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28A52CE1D5B178100D93646 /* QualarooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28A52D01D5B178100D93646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28A52D91D5B178100D93646 /* QualarooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D28A52CB1D5B178100D93646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D28A52B11D5B178100D93646 /* Qualaroo */;
+			targetProxy = D28A52CA1D5B178100D93646 /* PBXContainerItemProxy */;
+		};
+		D28A52D61D5B178100D93646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D28A52B11D5B178100D93646 /* Qualaroo */;
+			targetProxy = D28A52D51D5B178100D93646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D28A52B91D5B178100D93646 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28A52BA1D5B178100D93646 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D28A52C11D5B178100D93646 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28A52C21D5B178100D93646 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D28A52DB1D5B178100D93646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D28A52DC1D5B178100D93646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D28A52DE1D5B178100D93646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Qualaroo",
+				);
+				INFOPLIST_FILE = Qualaroo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enor.Qualaroo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D28A52DF1D5B178100D93646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Qualaroo",
+				);
+				INFOPLIST_FILE = Qualaroo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enor.Qualaroo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D28A52E11D5B178100D93646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QualarooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enor.QualarooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qualaroo.app/Qualaroo";
+			};
+			name = Debug;
+		};
+		D28A52E21D5B178100D93646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QualarooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enor.QualarooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qualaroo.app/Qualaroo";
+			};
+			name = Release;
+		};
+		D28A52E41D5B178100D93646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QualarooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enor.QualarooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Qualaroo;
+			};
+			name = Debug;
+		};
+		D28A52E51D5B178100D93646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QualarooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enor.QualarooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Qualaroo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D28A52AD1D5B178100D93646 /* Build configuration list for PBXProject "Qualaroo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28A52DB1D5B178100D93646 /* Debug */,
+				D28A52DC1D5B178100D93646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28A52DD1D5B178100D93646 /* Build configuration list for PBXNativeTarget "Qualaroo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28A52DE1D5B178100D93646 /* Debug */,
+				D28A52DF1D5B178100D93646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D28A52E01D5B178100D93646 /* Build configuration list for PBXNativeTarget "QualarooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28A52E11D5B178100D93646 /* Debug */,
+				D28A52E21D5B178100D93646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D28A52E31D5B178100D93646 /* Build configuration list for PBXNativeTarget "QualarooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28A52E41D5B178100D93646 /* Debug */,
+				D28A52E51D5B178100D93646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D28A52BC1D5B178100D93646 /* Qualaroo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D28A52BD1D5B178100D93646 /* Qualaroo.xcdatamodel */,
+			);
+			currentVersion = D28A52BD1D5B178100D93646 /* Qualaroo.xcdatamodel */;
+			path = Qualaroo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D28A52AA1D5B178100D93646 /* Project object */;
+}
